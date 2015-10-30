@@ -1,0 +1,2 @@
+# server
+copter connects GCS via IP net,a server with public IP address is needed,it transmits mavlink-packages between copter and GCS via UDP. Any settings or custom commands receive from qgroundcontrol and copter are printed by this program along with the heartbeats. As this program contains the mavlink library,you can parse messages and make some control.Setting no fly zone according to latitude and longitude etc.
